@@ -1,0 +1,106 @@
+.top{
+    background-color: darkslateblue;
+}
+.rect{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    border-style: hidden;
+    margin-left: 10cm;
+}
+.rect1{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    border-style: hidden;
+    margin-left:14cm ;
+    margin-top: -1.3cm;
+    
+
+}
+.rect2{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    border-style: hidden;
+    margin-left:18cm ;
+    margin-top: -1.3cm;
+
+}
+.rect3{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    border-style: hidden;
+    margin-left:22cm ;
+    margin-top: -1.3cm;
+
+}
+.body{
+    background-color: lightsteelblue;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 2px white;
+    
+    
+    
+    
+}
+
+.inp{
+    border-radius: 9px;
+    border-color: darkslategray;
+    border-block-end-style: groove;
+    border-style: inset;
+    border-width: 1px;
+     margin-top: 8cm;
+     margin-bottom: 10cm;
+
+    border-bottom-color:darkgray ; 
+    cursor: pointer;
+    box-shadow: 4px 4px 3px darkslategrey;
+         
+    
+    
+}
+#but{
+    border-radius:10px;
+    width: 2cm;
+    color:  gray;
+    margin-top: 2cm;
+    margin-left: -4cm;
+    background-color: azure;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 4px 4px 3px rgb(27, 44, 44);
+    
+    
+
+}
+#but1{
+    border-radius:10px;
+    width:100px;
+    height:50px;
+    color:  gray;
+    margin-top: 0/4cm;
+    margin-left: 0cm;
+    background-color: azure;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-color: azure;
+}
+.lab{
+   width:2cm;
+   height: 2cm;
+   background-color: black;
+   padding-top: 2cm;
+   color: red;
+   text-shadow: aqua;
+}
