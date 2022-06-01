@@ -93,14 +93,10 @@ line-height: 28px;
 text-transform: uppercase;
 
 color: #FFFFFF;
-text-shadow: 0px 0px 0px wheat;
+text-shadow: 0px 2px 2px cornflowerblue;
 
 }
-#con::shadow{
-    background-color: black;
-    color:white;
-    box-shadow: 2px 2px  6px lightblue;
-}
+
 
 .but{
     /* Auto layout */
