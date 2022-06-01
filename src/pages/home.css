@@ -1,0 +1,199 @@
+.desktop{
+    background:#000235;
+    position: absolute;
+    width:100% ;
+    height: 100%;
+    left:0;
+    overflow: scroll;
+
+}
+.Nav{
+    position: absolute;
+width: 1050px;
+height: 48px;
+left: 188px;
+top: 46px;
+}
+.ows{
+    position: absolute;
+width: 86px;
+height: 28px;
+left: calc(50% - 87px/2 - 488.5px);
+top: 56px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+
+/* identical to box height, or 138% */
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+#ab{
+    position: absolute;
+width: 60px;
+height: 28px;
+left: calc(50% - 60px/2 + 44px);
+top: 56px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+
+/* identical to box height, or 162% */
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+#pric{
+
+position: absolute;
+width: 69px;
+height: 28px;
+left: calc(50% - 69px/2 + 154.5px);
+top: 56px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+
+/* identical to box height, or 162% */
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+}
+#con{
+    position: absolute;
+width: 81px;
+height: 28px;
+left: calc(50% - 81px/2 + 276.5px);
+top: 56px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+
+/* identical to box height, or 162% */
+text-transform: uppercase;
+
+color: #FFFFFF;
+text-shadow: 0px 0px 0px wheat;
+
+}
+#con::shadow{
+    background-color: black;
+    color:white;
+    box-shadow: 2px 2px  6px lightblue;
+}
+
+.but{
+    /* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+color: white;
+align-items: center;
+padding: 10px 25px;
+gap: 14px;
+
+position: absolute;
+width: 160px;
+height: 48px;
+left: 1078px;
+top: 46px;
+font-style: italic;
+background: #2D2879;
+border-radius: 60px;
+}
+.but:hover{
+    background-color: black;
+    color:white;
+    box-shadow: 2px 2px  6px lightblue;
+    
+}
+.el{
+    width: 17px;
+height: 17px;
+
+background:white;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.head{
+
+position: absolute;
+width: 727px;
+height: 269px;
+left: calc(50% - 727px/2 - 211.5px);
+top: 227px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 100%;
+
+/* or 87px */
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+.el1{
+    position: absolute;
+width: 600px;
+height: 600px;
+left: calc(50% - 679px/2 - 289.5px);
+top: -452px;
+border-radius: 900px;
+
+background: rgba(141, 141, 218, 0.3);
+filter: blur(390px);
+}
+#subhead{
+    position: absolute;
+width: 452px;
+height: 55px;
+left: calc(50% - 452px/2 - 349px);
+top: 320px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20pxx;
+line-height: 28px;
+
+/* or 115% */
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.logos{
+  margin-left: -50px;
+  background-color: white;
+}
