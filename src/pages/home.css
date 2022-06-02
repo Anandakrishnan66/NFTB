@@ -16,7 +16,7 @@ top: 46px;
 }
 .ows{
     position: absolute;
-width: 86px;
+width: 87px;
 height: 28px;
 left: calc(50% - 87px/2 - 488.5px);
 top: 56px;
@@ -30,7 +30,7 @@ line-height: 28px;
 /* identical to box height, or 138% */
 text-transform: uppercase;
 
-color: #FFFFFF;
+color: #e3f2fd;
 
 
 }
@@ -193,3 +193,28 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   margin-left: -50px;
   background-color: white;
 }
+
+.sb1log{
+    position: absolute;
+left: 4.87%;
+right: -4.87%;
+top: 0%;
+bottom: 0%;
+
+background: url('./images.jpeg' );
+border-radius: 6px;
+
+}
+
+.sblog{
+
+position: absolute;
+width: 250px;
+height: 190px;
+left: calc(50% - 511px/2 + 255.5px);
+top: 167px;
+margin-left: 60px;
+
+
+}
+

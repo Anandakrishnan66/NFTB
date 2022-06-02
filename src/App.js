@@ -3,8 +3,10 @@
 import Pages from './pages/pages';
 
 function App() {
+  
   return (
     <div>
+     
       <Pages/>
     </div>
   );
