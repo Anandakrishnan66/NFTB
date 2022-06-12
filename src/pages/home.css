@@ -1,11 +1,16 @@
+.body{
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
 .desktop{
     background:#000235;
     position: absolute;
     width:100% ;
-    height:5000px;
+    height:4980px;
     left:0;
-    overflow: scroll;
-
+    
 }
 .Nav{
     position: absolute;
@@ -114,13 +119,14 @@ height: 48px;
 left: 1078px;
 top: 46px;
 font-style: italic;
-background: #9091DC;
+background: #11112e;
 border-radius: 60px;
 }
 .but:hover{
-    background: black;
-    color:white;
-    box-shadow: 2px 2px  6px lightblue;
+    transform: scale(1.5);
+    transition-duration: 0.3s;
+    border-radius: 10px;
+    box-shadow: #e3f2fd 4px 4px 10px;
     
 }
 .el{
@@ -600,12 +606,12 @@ background: linear-gradient(278.71deg, #ABD9D9 -20.32%, #5151C6 103.51%);
 border-radius: 30px;
 }
 
-.footlabel{
+#footlabel{
     position: absolute;
-width: 526px;
+width: 506px;
 height: 134px;
-left: calc(50% - 526px/2 + 2px);
-top: 2985px;
+left: calc(50% - 1066px/2 + 11.5px);
+top: 4085px;
 
 /* H2 */
 font-family: 'Outfit';
@@ -618,7 +624,242 @@ line-height: 100%;
 text-align: center;
 text-transform: capitalize;
 
+color: red;
+
+
+}
+
+#footyp{
+    position: absolute;
+width: 700px;
+height: 12px;
+left: calc(50% - 646px/2 + 1px);
+top: 105px;
+
+/* H2 */
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 57px;
+line-height: 100%;
+
+/* or 57px */
+text-align: center;
+text-transform: capitalize;
+text-decoration: solid;
+
 color: #FFFFFF;
 
 
+}
+
+#footbut{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 22px 71px;
+gap: 10px;
+
+position: absolute;
+width: 293px;
+height: 72px;
+left: calc(50% - 293px/2 + 1.5px);
+top: 300px;
+
+background: #000000;
+border-radius: 83px;
+}
+
+#butlabel{
+    width: 200px;
+height: 28px;
+
+/* SUB HEADER */
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+
+/* identical to box height, or 138% */
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#footbut:hover{
+    transform: scale(1.1);
+   border-radius: 10px;
+   
+   border-bottom-left-radius: 30px;
+   border-top-right-radius: 30px;
+   box-shadow: #e3f2fd 4px 8px 10px;
+}
+
+#butlabel:hover{
+  color:#8D8DDA;
+}
+
+#footown{
+    position: absolute;
+width: 150px;
+height: 29px;
+left: 188px;
+top: 3900px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+
+/* identical to box height */
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+#butgroup1{
+    position: absolute;
+left: 17.56%;
+right: 69.65%;
+top: 79%;
+bottom: 2.05%;
+width: 150px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 31px;
+
+/* or 194% */
+
+color: #FFFFFF;
+
+
+}
+
+#market{
+    position: absolute;
+width: 123px;
+height: 20px;
+left: 548px;
+top: 3900px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+}
+
+#butgroup2{
+    position: absolute;
+left: 23.06%;
+right: 55.21%;
+top: 79%;
+bottom: 2.9%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 31px;
+
+/* or 194% */
+
+color: #FFFFFF;
+
+
+}
+
+#footcont{
+
+
+position: absolute;
+width: 123px;
+height: 20px;
+left:870px;
+top: 3900px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+
+#butgroup3{
+
+    position: absolute;
+    left: 900px;
+    right: 55.21%;
+    top: 79%;
+    bottom: 2.9%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    
+    /* or 194% */
+    
+    color: #FFFFFF;
+    
+
+}
+#join{
+
+position: absolute;
+width: 400px;
+height: 28px;
+left: 1180px;
+top: 3900px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+
+/* identical to box height */
+
+color: #FFFFFF;
+border-radius: 70px;
+
+
+}
+
+#textbut{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 22px 71px;
+gap: 10px;
+
+position: absolute;
+width: 124px;
+height: 43px;
+left: 1450px;
+top: 4005px;
+
+background: #8D8DDA;
+border-radius: 83px;
 }

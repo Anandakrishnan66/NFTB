@@ -12,7 +12,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
 
-
+import HomeFoot from './homefoot'
 
 function Homee() {
 
@@ -81,7 +81,7 @@ color: '#FFFFFF'
             position: 'absolute',
             left: '218px',
             right: '0%',
-            top: '31%',
+            top: '21%',
             bottom: '0%'
 
          }}></img>
@@ -133,14 +133,12 @@ color: '#FFFFFF'
        <div className="boxx3"></div>
 
 
-       <div className='foot1'>
-
-        
-       </div>
-
+       
 
   </div>
      
+
+     <HomeFoot/>
 
 
 
