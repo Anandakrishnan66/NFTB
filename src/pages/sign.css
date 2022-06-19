@@ -1,0 +1,42 @@
+
+    .form1{
+        background: #000235;
+        position: absolute;
+        width:100% ;
+    
+    }
+    
+    
+    .label{
+    display: block;
+    font-size: larger;
+    color: white;
+    padding: 5px;
+    }
+    
+    .input{
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+    
+    }
+   
+    
+    .messages{
+    display: flex;
+    justify-content: center;
+    color: red;
+    
+    
+    }
+    
+    
+    .success{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+

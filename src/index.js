@@ -6,6 +6,7 @@ import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 import Signup from './pages/signup';
+import Sign from './pages/sign'
 
 
 
@@ -13,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-    <Signup/>
+    <Sign/>
   </React.StrictMode>
 );
 
